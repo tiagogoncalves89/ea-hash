@@ -1,21 +1,32 @@
 {
   "name": "ea-hash",
   "version": "1.0.0",
-  "description": "EA Hash algorithm for secret answers on Ultimate Team",
+  "description": "EA-Hash is a NodeJS Library to generate the secret answer hash used to authenticate in FIFA Ultimate Team.",
   "main": "lib/hash.js",
   "scripts": {
     "test": "mocha lib",
     "test:watch": "mocha --watch lib"
   },
   "keywords": [
-    "ea",
+    "ea-hash",
+    "ultimate team",
     "hash",
     "fut",
-    "ultimate",
-    "team",
     "origin"
   ],
-  "author": "Tiago de Assis Gonçalves",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/legiao/ea-hash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/legiao/ea-hash/issues"
+  },
+  "homepage": "https://github.com/legiao/ea-hash",
+  "author": {
+    "name": "Tiago de Assis Gonçalves",
+    "email": "contato@tiagogoncalves.com.br",
+    "url": "http://tiagogoncalves.com.br"
+  },
   "license": "MIT",
   "devDependencies": {
     "chai": "^1.10.0",
