@@ -1,0 +1,24 @@
+{
+  "name": "ea-hash",
+  "version": "1.0.0",
+  "description": "EA Hash algorithm for secret answers on Ultimate Team",
+  "main": "lib/hash.js",
+  "scripts": {
+    "test": "mocha lib",
+    "test:watch": "mocha --watch lib"
+  },
+  "keywords": [
+    "ea",
+    "hash",
+    "fut",
+    "ultimate",
+    "team",
+    "origin"
+  ],
+  "author": "Tiago de Assis Gonçalves",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}
