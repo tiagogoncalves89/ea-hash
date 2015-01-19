@@ -7,20 +7,24 @@ authenticate in FIFA Ultimate Team.
 [![Build Status](https://travis-ci.org/legiao/ea-hash.svg?branch=master)](https://travis-ci.org/legiao/ea-hash)
 [![Coverage Status](https://coveralls.io/repos/legiao/ea-hash/badge.svg?branch=master)](https://coveralls.io/r/legiao/ea-hash?branch=master)
 
+
 ## Installation
 
 ```sh
-npm install ea-hash --save
+$ npm install ea-hash --save
 ```
 
 
-## Example
+## Usage
 
 ```javascript
 var eaHash = require('ea-hash')
-var myString = '12345'
-var myResult = eaHash(myString)
+
+var hash = eaHash('secret answer')
+
+console.log(hash)
 ```
+
 
 ## License
 
