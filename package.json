@@ -1,6 +1,6 @@
 {
   "name": "ea-hash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EA-Hash is a NodeJS Library to generate the secret answer hash used to authenticate in FIFA Ultimate Team.",
   "main": "lib/hash.js",
   "scripts": {
