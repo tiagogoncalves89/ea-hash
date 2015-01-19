@@ -26,6 +26,16 @@ console.log(hash)
 ```
 
 
+## Tests
+
+To run the test suite, first install the dependencies, the run `npm test`:
+
+```bash
+$ npm install
+$ npm test
+```
+
+
 ## License
 
 [The MIT License (MIT)](./LICENSE)
