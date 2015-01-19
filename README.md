@@ -34,7 +34,7 @@ To run the test suite, first install the dependencies, the run `npm test`:
 
 ```bash
 $ npm install
-$ npm test
+$ npm run test:dev
 ```
 
 

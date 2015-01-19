@@ -5,6 +5,7 @@
   "main": "lib/hash.js",
   "scripts": {
     "test": "istanbul cover _mocha lib --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "test:dev": "mocha lib",
     "test:watch": "mocha --watch lib",
     "jshint": "jshint lib"
   },
